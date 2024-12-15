@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "send.h": "c",
+        "stdlib.h": "c",
+        "unistd.h": "c",
+        "swarm_send.h": "c",
+        "swarm_common.h": "c",
+        "swarm_read_parameter_from_file.h": "c",
+        "stdio.h": "c",
+        "string.h": "c"
+    }
+}
