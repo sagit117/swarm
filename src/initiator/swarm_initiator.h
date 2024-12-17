@@ -2,6 +2,7 @@
 
 #define QUEEN "queen"
 
+/* Структура конфигурации приложения */
 struct app_config {
     char *path_queen;
 };

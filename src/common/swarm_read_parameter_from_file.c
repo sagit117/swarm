@@ -11,12 +11,8 @@ char *swarm_read_parameter_from_file(FILE *file, char *parameter) {
     while ((read = getline(&line, &len, file)) != -1) {
         char *token = strtok(line, ":");
 
-        while(token != NULL) {
-            if (strcmp(token, parameter) == 0) {
-                return strtok(NULL, ":");
-            }
-
-            token = strtok(NULL, ":");
+        if (strcmp(token, parameter) == 0) {
+            return strtok(NULL, ":");
         }
     }
 
